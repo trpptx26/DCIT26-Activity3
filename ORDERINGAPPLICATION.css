@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(25, 36, 54);
+}
+.title{
+    color:black;
+    text-shadow: -1px -1px 0 rgb(171, 154, 116), 1px -1px 0 rgb(171, 154, 116), -1px 1px 0 rgb(171, 154, 116), 1px 1px 0 rgb(171, 154, 116);
+}
+.price{
+    color:black;
+    text-shadow: -1px -1px 0 rgb(171, 154, 116), 1px -1px 0 rgb(171, 154, 116), -1px 1px 0 rgb(171, 154, 116), 1px 1px 0 rgb(171, 154, 116);
+}
+.bills{
+    color:black;
+    text-shadow: -1px -1px 0 rgb(171, 154, 116), 1px -1px 0 rgb(171, 154, 116), -1px 1px 0 rgb(171, 154, 116), 1px 1px 0 rgb(171, 154, 116);
+}
+div {
+    padding: 10px;
+}
+label {
+    width: 200px;
+    display: inline-block;
+}
+
+input[type=image] {
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.subform {
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+input[type=text] {
+    border: 1px solid black;
+}
+
+input[type=text]:read-only {
+    background-color: rgb(25, 36, 54);
+}

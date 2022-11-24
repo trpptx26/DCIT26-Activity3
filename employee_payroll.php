@@ -71,10 +71,10 @@
         $total_deductions = "";
 
 
-        // $conn = new mysqli('localhost','root','','employee');
-        // $sql = "SELECT * FROM employee";    
-        // $result = mysqli_query($conn, $sql);
-        // $row = $result->fetch_assoc();
+        $conn = new mysqli('localhost','root','','employee');
+        $sql = "SELECT * FROM employee";    
+        $result = mysqli_query($conn, $sql);
+        $row = $result->fetch_assoc();
 
 
         if(isset($_POST["calculate_gross_income"])){

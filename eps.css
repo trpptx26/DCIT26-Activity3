@@ -1,34 +1,66 @@
 body {
-    background-image: linear-gradient(rgb(129, 129, 224), rgb(129, 188, 224));
-    background-repeat: repeat-x;
+    background-color: #1a2537;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -2px;
 }
 
 div {
-    padding: 10px;
+    padding: 4px;
 }
 
 label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #ad9976;
+
     width: 200px;
     display: inline-block;
+    padding-bottom: 7px;
 }
 
 input[type=image] {
-    border: 1px solid black;
+    border: 1px solid #ad9976;
+    background-color: white;
     height: 150px;
     width: 150px;
 }
 
+#choose_file_button {
+    margin-top: 100px;
+}
+
 .subform {
-    width: 40%;
     padding: 10px;
-    margin-bottom: 20px;
-    border: 2px solid black;
+    margin-bottom: 4px;
+    border: 2px solid #ad9976;
+    min-width: 385px;
+    max-width: 385px;
 }
 
 input[type=text] {
-    border: 1px solid black;
+    border: 1px solid #ad9976;
 }
 
 input[type=text]:read-only {
     background-color: rgb(180, 180, 180);
+}
+
+.flex_container {
+    display: flex;
+    flex-direction: row;
+}
+
+#mid_column, #right_column {
+    margin-top: 30px;
+}
+
+input[type="submit"] {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    background-color: #ad9976;
 }

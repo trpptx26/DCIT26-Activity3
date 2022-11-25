@@ -50,9 +50,14 @@ input[type=text]:read-only {
     background-color: rgb(180, 180, 180);
 }
 
-.flex_container {
+.flex_container_row {
     display: flex;
     flex-direction: row;
+}
+
+.flex_container_column {
+    display: flex;
+    flex-direction: column;
 }
 
 #mid_column, #right_column {
@@ -64,3 +69,34 @@ input[type="submit"] {
     font-size: 13px;
     background-color: #ad9976;
 }
+
+/* Ordering Application */
+
+#store img {
+    height: 140px;
+    width: 240px;
+    margin-bottom: 7px;
+    border: 1px solid #ad9976;
+    background-color: white;
+}
+
+#store input[type="submit"] {
+    text-align: left;
+    border-color: #ad9976;
+    background-color: rgb(180, 180, 180);
+}
+
+.item_column {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+#button_bar {
+    justify-content: center;
+}
+
+#button_bar input[type="submit"] {
+    margin-inline: 10px;
+}
+
